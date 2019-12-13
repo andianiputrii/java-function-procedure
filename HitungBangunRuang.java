@@ -13,8 +13,8 @@ class HitungBangunRuang{
 
             System.out.println("Apakah Ingin Mengulang ?(ketik 1 untuk ulang)");
             ulang = input.nextInt();
-            if(ulang == 1){
-                menu = true;
+            if(ulang != 1){
+                menu = false;
             }
         } while ( menu == true);
     }
@@ -94,7 +94,7 @@ class Rumus{
         }
     }
     public static double LuasSegitiga(int alas, int tinggi){
-        double luas = alas * tinggi /2;
+        double luas = alas * tinggi * 0.5;
         return luas;
     }
     public static void LuasBalok(int p , int l , int t){
