@@ -4,21 +4,21 @@ class HitungBangunRuang{
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String ulang="";
+        int ulang;
         boolean menu = true;
 
         do {
 
             Rumus.menu();
 
-            System.out.println("Apakah Ingin Mengulang ?(ya/tidak)");
-            ulang = input.nextLine();
-            if(ulang == "ya"){
+            System.out.println("Apakah Ingin Mengulang ?(ketik 1 untuk ulang)");
+            ulang = input.nextInt();
+            if(ulang == 1){
                 menu = true;
             }
-
         } while ( menu == true);
     }
+
 }
 
 class Rumus{
