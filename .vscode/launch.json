@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HitungBangunRuang",
+            "request": "launch",
+            "mainClass": "HitungBangunRuang"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Intro",
+            "request": "launch",
+            "mainClass": "Intro"
+        }
+    ]
+}

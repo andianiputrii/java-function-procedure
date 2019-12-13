@@ -1,0 +1,12 @@
+yaitu membungkus suatu baris program untuk digunakan secara berulang-ulang
+
+tugas :
+
+awal tampilkan menu 
+1. hitung luas segitiga
+2. hitung volume balok
+3. hitung volume prisma segitiga
+4. hitung voliume kerucut
+5. exit
+
+kembali ke menu atau exit
